@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import UsersList from './UsersList'
 
 function Home() {
     return (
-        <div>
-            <h1> I am home</h1>
-        </div>
+        <>
+            <Header/>
+            <UsersList/>
+        </>
     )
 }
 
